@@ -36,7 +36,9 @@ class App extends Component {
     const {loading} = this.state;
     return (
       <div className="container">
+        
         <h1>Search For Nature Images - React</h1>
+        
         <SearchField getImages={this.getImages} />
         {
           loading ? <div className="loader"> </div> : <FoundImages images={this.state.images} /> 
