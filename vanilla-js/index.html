@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form onsubmit="event.preventDefault(); return onSubmit()" id="searchForm">
+        <div class="form-group">
+          <label for="searchQuery">Enter Search Query</label>
+          <input
+            type="text"
+            name="searchQuery"
+            id="searchQuery"
+            name="searchQuery"
+            class="search-field"
+          />
+        </div>
+        <div class="form-group">
+          <button type="submit" class="submit-btn">Search</button>
+        </div>
+      </form>
+
+      <div id="loader" class="loader"> </div>
+      
+      <div id="imageContainer" class="found-images">
+
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
