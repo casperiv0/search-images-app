@@ -7,12 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-
 .container {
   margin-left: 20px;
   margin-right: 20px;
@@ -69,7 +63,6 @@ code {
   margin-bottom: 20px;
 }
 
-
 img {
   justify-self: center;
   min-width: 450px;
@@ -91,14 +84,11 @@ img {
   }
 }
 
-
-
-
 /* Loader 
-
-https://projects.lukehaas.me/css-loaders/
-
-*/
+  
+  https://projects.lukehaas.me/css-loaders/
+  
+  */
 .loader,
 .loader:before,
 .loader:after {
